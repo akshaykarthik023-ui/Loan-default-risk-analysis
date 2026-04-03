@@ -7,7 +7,7 @@ Horizon Financial Group is a mid-sized consumer lending firm specializing in pro
 This project thoroughly analyzes and synthesizes these data to uncover critical insights for improving the underwriting process to tackle the issue of the rising default rate on personal loans.
 
 Insights and recommendations are provided on the following key areas:
-  - Default& Delinquency trends: Analyzing historical trend patterns to improve the underwriting process.
+  - Default & Delinquency trends: Analyzing historical trend patterns to improve the underwriting process.
   - Customer segmentation performance: Identifying high-risk customer segments.
  
   
@@ -28,11 +28,11 @@ The dataset consists of 2 Tables: Borrowers Profiles and Loan Applications, with
 
 ### Overview of Findings
 
-After analyzing 600 personal loans issued across 2024 and 2025, the key risk drivers are: Interest rate, DTI ratio, existing monthly debt, and monthly payment amount. Although the main culprits are the interest rate and the DTI ratio, there are several cases where people with a high DTI ratio and Interest rate paid off the full loan amount. The variables that ensure more confidence for the company to lend loans are: a high Credit score, a high annual income, and the number of term months. A 40% DTI ratio should be considered as a good threshold as a cutoff for approving loans. The following section will explore additional contributing factors. 
+After analyzing 600 personal loans from 2024 and 2025, the key risk drivers are: Interest rate, DTI ratio, existing monthly debt, and monthly payment amount. Although the main culprits are the interest rate and the DTI ratio, there are several cases where people with a high DTI ratio and Interest rate paid off the full loan amount. The variables that ensure more confidence for the company to issue loans are: a high Credit score, a high annual income, and the number of term months. A 40% DTI ratio should be considered as a good threshold as a cutoff for approving loans. The following section will explore additional contributing factors. 
 
-### Default& Delinquency trends
+### Default & Delinquency trends
 
-  - The default rate for customers with Average credit scores of 613 points is 24.47% more than that of customers with average credit scores of 763 points.
+  - The default rate for customers with Average credit scores of 613 points is 24.47% higher than that of customers with average credit scores of 763 points.
   - Average loan amounts taken by  those who defaulted and those who did not are almost the same (22570 vs 22012).
   - The default rate goes above 20% for customers above 40% DTI ratio, and customers with credit scores above 740 act as a safety net even when the DTI is high.
   - Part-time employees default 28% of the time, meanwhile,  loan purposes like wedding, home improvement, and Auto loan defaults are >30%, 27%, and 26%,
@@ -46,7 +46,7 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
 
   - Customers with "exceptional" credit scores (>749) pay on time 114% better than those in the "Fair" (<600) category.
   - The percentage of customers who paid off in the "exceptional" category is 133% greater than that of customers with credit scores in the "Fair" category.
-  - Customers in the "moderate risk" (>40%)category for the DTI Ratio defaults 28% of the time. SO a DTI Ratio Threshold of 20% is to be considered before giving
+  - Customers in the "moderate risk" (>40%)category for the DTI Ratio defaults 28% of the time. SO a DTI Ratio Threshold of 40% is to be considered before giving
     out loans, one exception is for those customers with a credit score in the "exceptional" category.
 
     ![image](visuals/borrow_credit.png)
@@ -55,20 +55,20 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
 ## Recommendations
 Based on the uncovered insights, the following recommendations are provided:
 
-  - The credit score of customers plays a significant role in deciding whether to grant them a loan or not. A credit score of more than 749 is an excellent
+  - The credit score of customers plays a significant role in deciding whether to grant them a loan or not. A credit score higher than 749 is an excellent
     indicator of delinquency.
-  - A DTI Ratio of 40% or more should be considered as a cutoff for loan approval. But one exception is those customers with more than 749
+  - A DTI Ratio of 40% or higher should be considered as a cutoff for loan approval. But one exception is those customers with more than 749
     credit score can be considered as a good candidate even with the 40% or more DTI Ratio.
   - If reducing loss is the goal, then reducing the default rate to 10% might be a good option to consider, but there are downsides, like decreased profit and
     lower customer satisfaction.
-  - When deciding whether to grant a loan or not, consider: interest rate, DTI ratio, and existing monthly debt. As there is a trend showing loans with an interest
-    rate of more than 11.43% results in default.
-
+  - When deciding whether to issue a loan or not, consider: interest rate, DTI ratio, and existing monthly debt. As there is a trend showing that loans with
+    interest rate exceeding 11.43% showed a significantly higher propensity for default.
+    
 ## Caveats and Assumptions
 
   ### Data Caveats
     - Date column was of Object type, changed it to datetime type.
-    - There were 22 cases were DTI Ratio was greater than 100% and the max reaching 177%. As there were no illogical data about those above 100% DTI Ratio and 8
+    - There were 22 cases where DTI Ratio was greater than 100% and the max reaching 177%. As there were no illogical data about those above 100% DTI Ratio and 8
       of them even paid off their loan, so it was kept.
     - Correlation heatmap pointed out data leakage were variable: days delinquent showed .88 correlation with variable defaulted. Days delinquent effectively 
       describes the state of default rather than predicting it.
