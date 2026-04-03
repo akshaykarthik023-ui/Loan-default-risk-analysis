@@ -13,7 +13,7 @@ Insights and recommendations are provided on the following key areas:
   
 Tech used: Python, Pandas, Matplotlib, Seaborn, and Google Colab.
 
-The Python code used to load, clean, analyze, and visualize the data can be found [here]().
+The Python code used to load, clean, analyze, and visualize the data can be found [here](notebooks/credit_risk_analysis.ipynb).
 
 The visualizations can be found [here]().
 
