@@ -39,6 +39,6 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
     respectively.
   - Credit score, Annual income, and term months are great predictors of a low delinquency rate.
 
-    
+    ![image](visuals/dti_credit_loan.png)
 
 
