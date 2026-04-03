@@ -28,8 +28,7 @@ The dataset consists of 2 Tables: Borrowers Profiles and Loan Applications, with
 
 ### Overview of Findings
 
-After analyzing 600 personal loans from 2024 and 2025, the key risk drivers are: Interest rate, DTI ratio, existing monthly debt, and monthly payment amount. Although the main culprits are the interest rate and the DTI ratio, there are several cases where people with a high DTI ratio and Interest rate paid off the full loan amount. The variables that ensure more confidence for the company to issue loans are: a high Credit score, a high annual income, and the number of term months. A 40% DTI ratio should be considered as a good threshold as a cutoff for approving loans. The following section will explore additional contributing factors. 
-
+After analyzing 600 personal loans from 2024 and 2025, the key risk drivers are: Interest rate and DTI Ratio. While high DTI typically correlates with risk, a high credit score acts as a critical 'safety net', allowing high DTI individuals with strong credit histories to maintain successful repayment. Based on these findings, a 40% DTI cutoff for standard approvals is recommended, with an exception for "exceptional" credit scorers(>749).
 ### Default & Delinquency trends
 
   - The default rate for customers with Average credit scores of 613 points is 24.47% higher than that of customers with average credit scores of 763 points.
