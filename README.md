@@ -15,4 +15,6 @@ Tech used: Python, Pandas, Matplotlib, Seaborn, and Google Colab.
 
 The Python code used to load, clean, analyze, and visualize the data can be found [here]().
 
+The visualizations can be found [here]().
+
 
