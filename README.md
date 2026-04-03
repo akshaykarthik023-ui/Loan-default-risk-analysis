@@ -22,6 +22,6 @@ The visualizations can be found [here]().
 
 The dataset consists of 2 Tables: Borrowers Profiles and Loan Applications, with a total row_count of 601.
 
-![image]()
+![Datastructure](visuals/loan_erd.png)
 
 
