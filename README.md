@@ -49,4 +49,4 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
   - Customers in the "moderate risk" (>40%)category for the DTI Ratio defaults 28% of the time. SO a DTI Ratio Threshold of 20% is to be considered before giving
     out loans, one exception is for those customers with a credit score in the "exceptional" category.
 
-    ![image]()
+    ![image](visuals/borrow_credit.png)
