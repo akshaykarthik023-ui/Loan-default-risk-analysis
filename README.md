@@ -11,5 +11,8 @@ Insights and recommendations are provided on the following key areas:
   - Customer segmentation performance: Identifying high-risk customer segments.
   - Correlation with default rates: Variables that have the highest correlation with the defaults.
   
-    
+Tech used: Python, Pandas, Matplotlib, Seaborn, and Google Colab.
+
+The Python code used to load, clean, analyze, and visualize the data can be found [here]().
+
 
