@@ -42,3 +42,11 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
     ![image](visuals/dti_credit_loan.png)
 
 
+### Customer segmentation performance
+
+  - Customers with "exceptional" credit scores (>749) pay on time 114% better than those in the "Fair" (<600) category.
+  - The percentage of customers who paid off in the "exceptional" category is 133% greater than that of customers with credit scores in the "Fair" category.
+  - Customers in the "moderate risk" (>40%)category for the DTI Ratio defaults 28% of the time. SO a DTI Ratio Threshold of 20% is to be considered before giving
+    out loans, one exception is for those customers with a credit score in the "exceptional" category.
+
+    ![image]()
