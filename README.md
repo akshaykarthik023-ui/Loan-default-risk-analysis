@@ -33,7 +33,12 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
 ### Default& Delinquency trends
 
   - The default rate for customers with Average credit scores of 613 points is 24.47% more than that of customers with average credit scores of 763 points.
-  - Average loan amounts taken by  those who defaulted and those who did not are almost the same.
-  - The default rate goes above 20% for customers above 40% DTI ratio, and customers with high credit scores act as a safety net even when the DTI is high.
+  - Average loan amounts taken by  those who defaulted and those who did not are almost the same (22570 vs 22012).
+  - The default rate goes above 20% for customers above 40% DTI ratio, and customers with credit scores above 740 act as a safety net even when the DTI is high.
+  - Part-time employees default 28% of the time, meanwhile,  loan purposes like wedding, home improvement, and Auto loan defaults are >30%, 27%, and 26%,
+    respectively.
+  - Credit score, Annual income, and term months are great predictors of a low delinquency rate.
+
+    
 
 
