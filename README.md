@@ -51,3 +51,27 @@ After analyzing 600 personal loans issued across 2024 and 2025, the key risk dri
 
     ![image](visuals/borrow_credit.png)
     ![image](visuals/dti-default.png)
+
+## Recommendations
+Based on the uncovered insights, the following recommendations are provided:
+
+  - The credit score of customers plays a significant role in deciding whether to grant them a loan or not. A credit score of more than 749 is an excellent
+    indicator of delinquency.
+  - A DTI Ratio of 40% or more should be considered as a cutoff for loan approval. But one exception is those customers with more than 749
+    credit score can be considered as a good candidate even with the 40% or more DTI Ratio.
+  - If reducing loss is the goal, then reducing the default rate to 10% might be a good option to consider, but there are downsides, like decreased profit and
+    lower customer satisfaction.
+  - When deciding whether to grant a loan or not, consider: interest rate, DTI ratio, and existing monthly debt. As there is a trend showing loans with an interest
+    rate of more than 11.43% results in default.
+
+## Caveats and Assumptions
+
+  ### Data Caveats
+    - Date column was of Object type, changed it to datetime type.
+    - There were 22 cases were DTI Ratio was greater than 100% and the max reaching 177%. As there were no illogical data about those above 100% DTI Ratio and 8
+      of them even paid off their loan, so it was kept.
+    - Correlation heatmap pointed out data leakage were variable: days delinquent showed .88 correlation with variable defaulted. Days delinquent effectively 
+      describes the state of default rather than predicting it.
+  ### Assumptions
+    - Assumed bins&labels during data segmentation of DTI Ratio - Defaulted chart and for credit category.
+
